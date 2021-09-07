@@ -35,8 +35,8 @@ a {                  /* A stands for link, so this section is setting the defaul
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
-	color: white;
+	text-align: center;
+	color: green;
 }
 
 h2 {		     /* This styles the headers within the page */
