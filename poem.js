@@ -10,13 +10,13 @@ function nextLine(line) {
 }
 
 function button_fun(curr_state){
-	var dark = "<button onClick=button_fun('dark')>Light Mode</button>"
-	var light = "<button onClick=button_fun('light')>Dark Mode</button>"
+	var dark = "<button id='but' onClick=button_fun('dark')>Light Mode</button>"
+	var light = "<button id='but' onClick=button_fun('light')>Dark Mode</button>"
 
 	if(curr_state == 'light'){
-		document.getElementById("but").innerHTML=dark
+		document.getElementById("button").innerHTML=dark
 	} 
 	if(curr_state == 'dark'){
-		document.getElementById("but").innerHTML=light
+		document.getElementById("button").innerHTML=light
 	}
 }
