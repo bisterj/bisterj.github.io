@@ -15,8 +15,10 @@ function button_fun(curr_state){
 
 	if(curr_state == 'light'){
 		document.getElementById("button").innerHTML=dark
+		document.getElementById("css").setAttribute("href", "dark.css")
 	} 
 	if(curr_state == 'dark'){
 		document.getElementById("button").innerHTML=light
+		document.getElementById("css").setAttribute("href", "light.css")
 	}
 }
