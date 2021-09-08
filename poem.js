@@ -8,3 +8,15 @@ function nextLine(line) {
 
 	document.getElementById("line").innerHTML=poem[line];
 }
+
+function button_fun(curr_state){
+	var dark = "<button onClick=button_fun('dark')>Light</button>"
+	var light = 
+
+	if(curr_state == 'light'){
+		document.getElementById("button").innerHTML=dark
+	} 
+	if(curr_state == 'dark'){
+		document.getElementById("button").innerHTML=light
+	}
+}
