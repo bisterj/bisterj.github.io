@@ -10,8 +10,8 @@ function nextLine(line) {
 }
 
 function button_fun(curr_state){
-	var dark = "<button onClick=button_fun('dark')>Light</button>"
-	var light = 
+	var dark = "<button onClick=button_fun('dark')>Light Mode</button>"
+	var light = "<button onClick=button_fun('light')>Dark Mode</button>"
 
 	if(curr_state == 'light'){
 		document.getElementById("button").innerHTML=dark
