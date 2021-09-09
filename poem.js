@@ -22,3 +22,14 @@ function button_fun(curr_state){
 		document.getElementById("css").setAttribute("href", "light.css")
 	}
 }
+
+function rand_color(){
+	var colors = new Array("black", "white", "green", "greenyellow", "yellow", "red", "orange")
+	var rc = colors[Math.floor(Math.random()*colors.length)]
+
+	console.log(rc)
+
+	var str = "margin-left: 95%; background-color: "+ rc + ";"
+
+	document.getElementById("randy").setAttribute("style", str)
+}
