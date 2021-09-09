@@ -24,7 +24,7 @@ function button_fun(curr_state){
 }
 
 function rand_color(){
-	var colors = new Array("black", "white", "green", "greenyellow", "yellow", "red", "orange")
+	var colors = new Array("black", "white", "green", "greenyellow", "yellow", "red", "orange", "blue", "pink")
 	var rc = colors[Math.floor(Math.random()*colors.length)]
 
 	console.log(rc)
