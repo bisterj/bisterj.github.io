@@ -56,8 +56,8 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #f2f2f2; /* Change the color to looks like Berea Background */
-	color: black;
+	background: black; /* Change the color to looks like Berea Background */
+	color: greenyellow;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
@@ -70,20 +70,29 @@ div.section {
 /* This alters the appearance of the div with id="signup". */
 #poem {
 	height: 110px;
-	background: white;
+	background: black;
 	text-align: center;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
-	background: white;
-	color: black;
+	background: black;
+	color: greenyellow;
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
-.minileft {
-	float: left;
+.miniright {
+	float: right;
 	height: 100%;
-	margin-bottom:1.5em;
-	margin-right: 1em;
+	margin-bottom:1.5em; 
+	margin-left: 1em;
+}
+
+.right {
+	margin-left: 5%;
+	margin-right: 2%;
+}
+
+.button {
+	text-align: center;
 }

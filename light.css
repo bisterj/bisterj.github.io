@@ -81,9 +81,18 @@ div.section {
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
-.minileft {
-	float: left;
+.miniright {
+	float: right;
 	height: 100%;
-	margin-bottom:1.5em;
-	margin-right: 1em;
+	margin-bottom:1.5em; 
+	margin-left: 1em;
+}
+
+.right {
+	margin-left: 5%;
+	margin-right: 2%;
+}
+
+.button {
+	text-align: center;
 }
